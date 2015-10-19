@@ -1,6 +1,6 @@
 # Hacking already pins down pep8, pyflakes and flake8
 hacking>=0.8.0,<0.9
-coverage
+coverage>=4.0.1
 nose
 nosexcover
 openstack.nose_plugin
