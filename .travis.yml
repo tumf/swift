@@ -1,0 +1,20 @@
+---
+language: python
+python:
+  - "2.7"
+
+install:
+  - pip install tox
+
+script:
+  - tox -e py27
+
+addons:
+  apt:
+    packages:
+    - python-dev
+    - python-pip
+    - libffi-dev
+    - libssl-dev
+    - libxml2-dev
+    - libxslt1-dev
