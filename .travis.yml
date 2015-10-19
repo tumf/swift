@@ -5,6 +5,7 @@ python:
 
 install:
   - pip install tox
+  - python setup.py develop
 
 script:
   - tox -e py27
